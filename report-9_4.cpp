@@ -23,7 +23,7 @@ void printArray(double a[],int N){
 }
 
 void sort(double b[],int N){
-    for(int c=0;c<=N-1;c++){
+    for(int c=0;c<N-1;c++){
         for(int d=c+1;d<N;d++){
             if(b[c]<b[d]){
                 double ans=b[d];
