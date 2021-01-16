@@ -10,20 +10,20 @@ int main(){
     double sin_theta=0;
     double cos_theta=0;
     double tan_theta=0;
-    do{
+    do
         cin>>theta;
-    }while(theta<0.0||theta>360);
-    if(theta==0){
+    while(theta<0.0||theta>360);
+    if(theta==0)
         cos_theta=1;
-    }else if(theta==90){
+    else if(theta==90)
         sin_theta=1;
-    }else if(theta==180){
+    else if(theta==180)
         cos_theta=-1;
-    }else if(theta==270){
+    else if(theta==270)
         sin_theta-1;
-    }else if(theta==360){
+    else if(theta==360)
         cos_theta=1;
-    }else{
+    else{
         sin_theta=sin(ThetaToRadian(theta));
         cos_theta=cos(ThetaToRadian(theta));
         tan_theta=tan(ThetaToRadian(theta));
