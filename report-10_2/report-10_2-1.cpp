@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int rect_area(int width,int height){
+int rect_area(int width,int height=0){
     if(!height){
-        return width*width;
+        return height=width;
     }
     return width*height;
 }
