@@ -8,7 +8,7 @@ void func1(int x[],unsigned int n){
 }
 
 void func2(int x[],unsigned int n){
-    for(int i=0;i<5;i++){
+    for(int i=0;i<n;i++){
         x[i]=x[i]*2;
     }
 }
