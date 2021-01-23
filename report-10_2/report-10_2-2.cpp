@@ -5,7 +5,7 @@ int rect_area(int width,int height){
     return width*height;
 }
 
-int arect_area(int width){
+int rect_area(int width){
     return width*width;
 }
 
