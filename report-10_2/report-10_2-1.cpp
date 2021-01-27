@@ -3,7 +3,7 @@ using namespace std;
 
 int rect_area(int width,int height=0){
     if(!height){
-        return height=width;
+        height=width;
     }
     return width*height;
 }
