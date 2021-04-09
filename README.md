@@ -1,4 +1,4 @@
-# school-report
+# school-1
 今までに学校で出されたReportの回答を載せておく。
 ## Report-6
 ### 1　10から1までの二乗した数を算出
